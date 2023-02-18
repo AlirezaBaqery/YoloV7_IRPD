@@ -1,0 +1,12 @@
+names:
+- licence
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: anpr_ir-qozlh
+  url: https://universe.roboflow.com/dapa/anpr_ir-qozlh/dataset/1
+  version: 1
+  workspace: dapa
+test: ../test/images
+train: ANPR_IR-1/train/images
+val: ANPR_IR-1/valid/images
