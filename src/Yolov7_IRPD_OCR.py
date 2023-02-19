@@ -341,19 +341,22 @@ def get_plates_from_webcam():
 
     return output
 
-# Image:
+if __name__ == '__main__':
 
-# plate_image = cv.imread(image_path)
-# detected_plate_image = get_plates_from_image(plate_image)
-# cv.imwrite(os.path.join(savepath, "detected_plate.png"), detected_plate_image)
-# cv.imshow("detected_plate_image",detected_plate_image)
-# cv.waitKey(0)
-# cv.destroyAllWindows
+    # Image:
 
-# Video:
+    plate_image = cv.imread(image_path)
+    detected_plate_image = get_plates_from_image(plate_image)
+    cv.imwrite(os.path.join(savepath, "detected_plate.png"), detected_plate_image)
+    cv.imshow("detected_plate_image",detected_plate_image)
+    cv.waitKey(0)
+    cv.destroyAllWindows
 
-# detected_plate_image = get_plates_from_video(video_path)
+    # Video:
 
-# Webcam:
+    # detected_plate_image = get_plates_from_video(video_path)
 
-detected_plate_webcam = get_plates_from_webcam()
+    # Webcam:
+
+    # detected_plate_webcam = get_plates_from_webcam()
+    
