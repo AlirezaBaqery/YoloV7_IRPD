@@ -53,9 +53,9 @@ drive.mount('/content/gdrive')
 
 - To train the pre-trained YoloV7 model on the new dataset, run the Yolov7_IRPD_Train.ipynb notebook cells in order.
 
-- Run the Yolov7_IRPD_OCR.py script to recognize the license plate and its text.
+- To recognize the license plate and its text and numbers, run the Yolov7_IRPD_OCR.py script. To choose license plate recognition from the content of photo or video or webcam, uncomment the corresponding lines of code at the end of the script.
 
-*Please read the file in the report folder before running the codes for the initial settings of some variables and paths.*
+*Please read the file in the report folder before running the codes in order to learn how to set the path of the files and variables.*
 
 ## Results
 
